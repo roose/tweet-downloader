@@ -1,4 +1,13 @@
-tweet-downloader
+tweet-downloader v0.1
 ================
 
-download after tweet
+----------
+
+Отдаем файл пользователю только после твита.
+Сделано по материалам из: https://dev.twitter.com/docs/intents/events
+
+Навешивается функция на событие твита, полный список событий: click, tweet, retweet, favorite, follow.<br>
+Кнопка твита:<br>
+ссылка - текущая страница <br>
+текст - Название страницы<br>
+остальные значения - по умолчанию, можно изменить/добавить смотрите: https://dev.twitter.com/docs/tweet-button

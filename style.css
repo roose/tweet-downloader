@@ -1,28 +1,29 @@
 html {
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 body {
 	background: #fafafa url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkE0NTM1NzNEQ0RCMTExRTFCNEY4OTI4MTU2ODk0RUMwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkE0NTM1NzNFQ0RCMTExRTFCNEY4OTI4MTU2ODk0RUMwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTQ1MzU3M0JDREIxMTFFMUI0Rjg5MjgxNTY4OTRFQzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTQ1MzU3M0NDREIxMTFFMUI0Rjg5MjgxNTY4OTRFQzAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5YIglRAAAAN0lEQVR42mL4+vXrf9yAAYhxqQCKM8BZmHJQ3Zgq4GwGTB3I6hiwmoldGp9ufHbjczkefwMEGADDCyjIWuJVaQAAAABJRU5ErkJggg==');
-	font: 14px "Trebuchet MS", sans-serif;
 	display: table;
-	width: 100%;
+	font: 14px "Trebuchet MS", sans-serif;
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 .wrapper {
 	display: table-cell;
-	vertical-align: middle;
 	text-align: center;
+	vertical-align: middle;
 }
 .container {
-	overflow: hidden;
-	width: 300px;
-	padding: 20px;
-	margin: auto;
-	text-align: left;
 	background-color: #FFF;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	text-align: left;
+	width: 300px;
+
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -34,7 +35,7 @@ body {
 	box-shadow: 0 0 5px  rgba(0,0,0,0.5);
 }
 h2 {
+	font-size: 20px;
 	margin: 0;
 	padding-bottom: 16px;
-	font-size: 20px;
 }
